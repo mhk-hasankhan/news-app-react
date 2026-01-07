@@ -13,7 +13,10 @@ const App = () => {
     setLoading(true);
     fetch(url)
       .then((result) => result.json())
-      .then((data) => (setNews(data.hits || []), setLoading(false)))
+      .then((data) => {
+        setNews(data.hits || []);
+        setLoading(false);
+      })
       .catch((error) => console.log(error));
   };
 
