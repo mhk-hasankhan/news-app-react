@@ -41,6 +41,6 @@ The project demonstrates practical usage of **React Hooks**, API integration, an
 ### Installation
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/mhk-hasankhan/news-app-react/tree/master)
+git clone https://github.com/mhk-hasankhan/news-app-react.git
 cd your-repo-name
 npm install
