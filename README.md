@@ -1,3 +1,11 @@
+## 🚀 Live Demo
+
+This application has been successfully deployed on **Netlify**.
+
+🔗 **Live URL:** https://newsappprojectapi.netlify.app/
+
+The app fetches real-time data from the Hacker News API and allows users to search for news articles using keywords.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
