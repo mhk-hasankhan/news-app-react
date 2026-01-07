@@ -1,46 +1,46 @@
+# 📰 Hacker News Search App
+
+A modern React application that allows users to search and browse articles from the Hacker News platform using the official Algolia Search API.  
+The project demonstrates practical usage of **React Hooks**, API integration, and **CI/CD deployment with Netlify**.
+
+---
+
 ## 🚀 Live Demo
 
-This application has been successfully deployed on **Netlify**.
+🔗 **https://newsappprojectapi.netlify.app/**
 
-🔗 **Live URL:** https://newsappprojectapi.netlify.app/
+---
 
-The app fetches real-time data from the Hacker News API and allows users to search for news articles using keywords.
+## ✨ Features
 
-# Getting Started with Create React App
+- 🔍 Search Hacker News articles by keyword
+- ⚛️ Built using React functional components and hooks
+- 🌐 Real-time data fetching from Hacker News Algolia API
+- ⏳ Loading state handling for better UX
+- 🔗 External article linking
+- 🚀 Continuous deployment via Netlify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🛠️ Tech Stack
 
-In the project directory, you can run:
+- **Frontend:** React (Create React App)
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **API:** Hacker News Algolia Search API
+- **Styling:** CSS
+- **Deployment:** Netlify
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/mhk-hasankhan/news-app-react/tree/master)
+cd your-repo-name
+npm install
