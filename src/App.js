@@ -9,19 +9,19 @@ const App = () => {
   );
   const [loading, setLoading] = useState(false);
 
-  const fetchNews = () => {
+  useEffect(() => {
     setLoading(true);
+
     fetch(url)
-      .then((result) => result.json())
+      .then((res) => res.json())
       .then((data) => {
         setNews(data.hits || []);
         setLoading(false);
       })
-      .catch((error) => console.log(error));
-  };
-
-  useEffect(() => {
-    fetchNews();
+      .catch((err) => {
+        console.error(err);
+        setLoading(false);
+      });
   }, [url]);
 
   const handleChange = (e) => setSearchQuery(e.target.value);
